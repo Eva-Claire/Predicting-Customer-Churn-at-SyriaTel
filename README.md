@@ -6,9 +6,11 @@
 #### Student pace: Remote  
 #### Technical mentors: Asha Deen / Lucille Kaleha  
 
+
 Welcome to the "SYRIATEL CUSTOMER CHURN PREDICTION" project! Dive into our in-depth analysis of customer churn for Syriatel, a telecom giant looking to uncover the crucial factors driving subscriber turnover. Our mission? To equip Syriatel and telecom businesses worldwide with actionable insights and retention strategies, ensuring every customer feels valued and satisfied. Join us as we decode churn and pave the way for long-lasting customer relationships.
 
 # OVERVIEW
+
 SyriaTel faces a critical challenge: identifying customers likely to cancel services, a common issue in the telecom industry affecting revenue. Leveraging advanced predictive analytics and machine learning, We aim to build a robust churn prediction model. This will empower SyriaTel to proactively engage at-risk customers, implement retention strategies and mitigate financial losses. The project's main stakeholder is SyriaTel, company executives, marketing teams and customer service reps keen on reducing churn and maximizing customer value. By uncovering churn factors and identifying at-risk customers, the model enables data-driven decisions, optimizing retention efforts for sustained business growth.
 
 
@@ -30,8 +32,7 @@ The main objective of this project is to develop a binary classification model t
 
 # DATA UNDERSTANDING
 
-
-## Data Collection
+### Data Collection
 The dataset used in this project is called Churn in Telecom's from Kaggle (https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset).
 
 The dataset consists of 3333 entries and 21 columns namely state, account length, area code, phone number, international plan, voicemail plan, number of voicemail messages, total day minutes, total day calls, total day charge, total evening minutes, total evening calls, total evening charge, total night minutes, total night calls, total night charge, total international minutes, total international calls, total international charge, customer service calls, and churn status.
@@ -39,8 +40,7 @@ The dataset consists of 3333 entries and 21 columns namely state, account length
 
 # DATA PREPARATION
 
-
-## Data Cleaning
+### Data Cleaning
 
 - **Handle Missing Values**: Identify and decide on a strategy to handle missing values in columns.
 - **Remove Duplicates**: Identify and remove duplicate rows from the dataset.
@@ -126,7 +126,6 @@ After hyperparameter tuning, train accuracy went down from 89% to 93% and test a
 ![png](output_108_0.png)
     
 
-
 ### Random Forest Classifier
 
 ![png](output_111_1.png)
@@ -135,7 +134,6 @@ After hyperparameter tuning, train accuracy went down from 89% to 93% and test a
 ![png](output_111_2.png)
     
 Training accuracy of 100% and a test accuracy of 93%.
-
 
 
 # MODEL EVALUATION
