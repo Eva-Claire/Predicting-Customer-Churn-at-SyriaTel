@@ -1,6 +1,6 @@
 # SYRIATEL CUSTOMER CHURN PREDICTION: LEVERAGING DATA TO IMPROVE CUSTOMER RETENTION
 
-![logo.png](attachment:logo.png)
+![logo.png](syriatel_model_images/attachment:logo.png)
 
 #### Author: Evaclaire Munyika Wamitu  
 #### Student pace: Remote  
