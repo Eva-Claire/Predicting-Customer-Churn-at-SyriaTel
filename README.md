@@ -57,38 +57,38 @@ The dataset consists of 3333 entries and 21 columns namely state, account length
 ### Univariate data analysis 
 
 ##### Histograms of numeric features with kernel density estimation (KDE)
-![png](output_34_0.png)
+![png](syriatel_model_images/output_34_0.png)
     
     
 ##### Boxplots displaying outliers
 
-![png](output_39_0.png)
+![png](syriatel_model_images/output_39_0.png)
     
     
 ##### Countplot displaying class imbalance
   
   
-![png](output_42_0.png)
+![png](syriatel_model_images/output_42_0.png)
     
     
 ##### Distribution of churn in two categorical groups
 
 
-![png](output_46_0.png)
+![png](syriatel_model_images/output_46_0.png)
     
 
-![png](output_46_1.png)
+![png](syriatel_model_images/output_46_1.png)
 
     
 ##### Comparative pairplots 
 
-![png](output_49_0.png)
+![png](syriatel_model_images/output_49_0.png)
     
 
 ### Multivariate Analysis
 
    
-![png](output_64_0.png)
+![png](syriatel_model_images/output_64_0.png)
     
 
 # MODELLING
@@ -96,9 +96,9 @@ The dataset consists of 3333 entries and 21 columns namely state, account length
 
 ### Logistic Regression
   
-![png](output_91_1.png)
+![png](syriatel_model_images/output_91_1.png)
      
-![png](output_91_2.png)
+![png](syriatel_model_images/output_91_2.png)
     
 After hyperparameter tuning, best parameters = {‘C’: 0.1, ‘penalty’: ‘L1’, ‘solver’: ‘liblinear’}, train accuracy of 78% and test accuracy of 78%.
 
@@ -106,9 +106,9 @@ After hyperparameter tuning, best parameters = {‘C’: 0.1, ‘penalty’: ‘
 ### K-Nearest Neighbors
 
 
-![png](output_99_1.png)
+![png](syriatel_model_images/output_99_1.png)
      
-![png](output_99_2.png)
+![png](syriatel_model_images/output_99_2.png)
     
 
 After hyperparameter tuning, best parameters = \( k = 3 \) neighbors, \( p = 1 \) (indicating Manhattan distance)
@@ -117,31 +117,31 @@ After hyperparameter tuning, best parameters = \( k = 3 \) neighbors, \( p = 1 \
 ### Decision Trees Classifier
 
 
-![png](output_106_1.png)
+![png](syriatel_model_images/output_106_1.png)
     
-![png](output_106_2.png)   
+![png](syriatel_model_images/output_106_2.png)   
 
 After hyperparameter tuning, train accuracy went down from 89% to 93% and test accuracy from 91% to 82%. 
 
-![png](output_108_0.png)
+![png](syriatel_model_images/output_108_0.png)
     
 
 ### Random Forest Classifier
 
-![png](output_111_1.png)
+![png](syriatel_model_images/output_111_1.png)
     
   
-![png](output_111_2.png)
+![png](syriatel_model_images/output_111_2.png)
     
 Training accuracy of 100% and a test accuracy of 93%.
 
 
 # MODEL EVALUATION
 
-![png](output_117_0.png)
+![png](syriatel_model_images/output_117_0.png)
     
 
-![png](output_121_0.png)
+![png](syriatel_model_images/output_121_0.png)
     
 
 # CONCLUSIONS
