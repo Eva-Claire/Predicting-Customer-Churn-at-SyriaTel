@@ -139,10 +139,14 @@ Training accuracy of 100% and a test accuracy of 93%.
 # MODEL EVALUATION
 
 ![png](syriatel_model_images/output_117_0.png)
+
+The random forest model stood out as the best model out of all the other models.
     
 
 ![png](syriatel_model_images/output_121_0.png)
-    
+
+The top predictors of churn were total day minutes, number of customer service calls, international plan, voicemail plan, total evening minutes, total international calls, number of voicemail messages, total evening calls, account length, total day calls and total night calls.
+
 
 # CONCLUSIONS
 
